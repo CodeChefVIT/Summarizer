@@ -1,7 +1,7 @@
 <h1>
- ⭐️ Project Name Goes here ⭐️
+ ⭐️ Summarizer ⭐️
 </h1>
-Project description goes here.
+Summarizer for Privacy Policies and Terms & Conditions.
 <br> 
 
 <br>
@@ -11,9 +11,12 @@ Project description goes here.
 [![DOCS](https://img.shields.io/badge/Documentation-see%20docs-green?style=flat-square&logo=appveyor)](INSERT_LINK_FOR_DOCS_HERE) 
   [![UI ](https://img.shields.io/badge/User%20Interface-Link%20to%20UI-orange?style=flat-square&logo=appveyor)](INSERT_UI_LINK_HERE)
 
+## About Summarizer
+It is very tedious to read a long privacy policy or terms & conditions of a website or company. PP Summarizer helps the user choose the type of document or text and summarizes it within seconds.
 
 ## Features
-- Insert list of features here
+- Summarize long privacy policies.
+- Summarize long terms and conditions.
 
 
 ## Instructions to run
