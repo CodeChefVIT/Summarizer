@@ -21,8 +21,8 @@ It is very tedious to read a long privacy policy or terms & conditions of a webs
 
 ## Instructions to run
 ```
-$ git clone https://github.com/CodeChefVIT/Summerizer
-$ cd Summerizer
+$ git clone https://github.com/CodeChefVIT/Summarizer
+$ cd Summarizer
 $ npm install
 ```
 These variables should reside as key value pairs in a file called `.env`.
