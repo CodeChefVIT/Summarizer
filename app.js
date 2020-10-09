@@ -30,6 +30,8 @@ app.use((req, res, next) => {
 
 app.use(cors());
 
+app.use("/api/v1/summarize", require("./api/routes/summarize"));
+
 //This function will give a 404 response if an undefined API endpoint is fired
 app.use((req, res, next) => {
   const error = new Error("Route not found");
