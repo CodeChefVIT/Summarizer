@@ -8,8 +8,8 @@ Summarizer for Privacy Policies and Terms & Conditions.
 <img src="https://embed-fastly.wistia.com/deliveries/49bd387c40e2c5aada92abdf973bc46d.webp?image_crop_resized=960x540">
 
 ---
-[![DOCS](https://img.shields.io/badge/Documentation-see%20docs-green?style=flat-square&logo=appveyor)](INSERT_LINK_FOR_DOCS_HERE) 
-  [![UI ](https://img.shields.io/badge/User%20Interface-Link%20to%20UI-orange?style=flat-square&logo=appveyor)](INSERT_UI_LINK_HERE)
+[![DOCS](https://img.shields.io/badge/Documentation-see%20docs-green?style=flat-square&logo=appveyor)](https://documenter.getpostman.com/view/12931122/TVRkZ7WS)
+<!-- [![UI ](https://img.shields.io/badge/User%20Interface-Link%20to%20UI-orange?style=flat-square&logo=appveyor)](INSERT_UI_LINK_HERE) -->
 
 ## About Summarizer
 It is very tedious to read a long privacy policy or terms & conditions of a website or company. PP Summarizer helps the user choose the type of document or text and summarizes it within seconds.
@@ -21,16 +21,22 @@ It is very tedious to read a long privacy policy or terms & conditions of a webs
 
 ## Instructions to run
 ```
-$ git clone https://github.com/CodeChefVIT/<Project>
-$ cd <Project>
-$ pip3 install -r requirements.txt
-$ python3 manage.py runserver
+$ git clone https://github.com/CodeChefVIT/Summerizer
+$ cd Summerizer
+$ npm install
+```
+These variables should reside as key value pairs in a file called `.env`.
+
+| Variable Name |           Description           |                     Get it from                     |
+| :-----------: | :-----------------------------: | :-------------------------------------------------: |
+|    APIKEY     | MeaningCloud Summerizer API KEY | https://rapidapi.com/MeaningCloud/api/summarization |
+
+```
+$ npm start
 ```
 
 ## Contributors
-- <a href="https://github.com/<Contributor>">Contributor Name</a>
-- <a href="https://github.com/<Contributor>">Contributor Name</a>
-
+- <a href="https://github.com/RajatSablok">Rajat Sablok</a>
 
 <h2>
  What is Hacktoberfest 2020? 😎
